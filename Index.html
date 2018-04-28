@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="საგამოცდო ნაშრომი, საიტი მიტიტყნილია ნიკა ყარალაშვილის მიერ">
+    <meta name="keywords" content="WebPage, JavaScript, Code Flies, Exam...">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/a.ico" />
+    <title>WebPage For Exam</title>
+</head>
+<body onload="fivepoint()">
+    <header>
+        
+        <div class="text-center text-color">
+            <h3>Wellcome to my WebPage!</h3>
+        </div>
+        <h4 class="text-center">სურათებს დააკლიკე!</h4>
+    </header>
+    <div class="center-box">
+            <div class="under" id="vualla">
+                    <div class="mainBox">
+                        <div class="inputBox">
+                            Score: <input type="number" name="score" id="score" min="0" max="100" /><span style="color: red;"> Max:100</span><br/><br/>
+                            Credit: <input type="number" name="credit" id="credit" min="0" max="5" /><span style="color: red;"> Max:5</span><br/><br/>
+                            <button onclick="addRow();">Add Row</button><br/><br/>
+                            <button onclick="deleteRow();">Delete Row</button><br/><br/>
+                            <span id="val" style="font-size:20px; color: green;">შედეგი გამოვა აქ:</span>                    
+                        </div>
+                            <table border="1" id="table">    
+                                <tr>
+                                    <th>Score:</th>
+                                    <th>Credit:</th>
+                                    <th>Multiplied:</th>
+                                </tr> 
+                            </table>
+                    </div>
+            </div>
+            <div id="imgDelete" onclick="cleanS(event)">
+            <img src="img/poop0.jpg" alt="my web page">
+            <img src="img/poop1.jpg" alt="my web page">
+            <img src="img/poop2.jpg" alt="my web page">
+            <img src="img/poop3.jpg" alt="my web page">
+            <img src="img/poop4.jpg" alt="my web page">
+            <img src="img/poop5.jpg" alt="my web page">
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div class="text-center">
+            <p>&copyCopyPaste Developer</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

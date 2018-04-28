@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+.text-center {
+    bottom: 10px;
+    text-align: center;
+}
+
+.center-box {
+    width: 728px;
+    min-height: 418px;
+    position: relative;
+    display: block;
+    margin: 0 30%;
+    border: 20px solid transparent;
+    border-image: url(img/HappyBorder.PNG) 20 round;   
+}
+h4 {
+    color: red;
+}
+
+.under{
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    height: 50%;
+}
+/**/
+.text-color{
+    animation-name: text-colo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-colo {
+    from {color:white;}
+    to {color: black;}    
+}
+
+.mainBox{
+	padding-top: 10%;
+	display: block;
+	width: 500px;
+	margin:auto;
+}
+
+table,th,td  {
+    padding: 7px;   
+}
+table {
+    margin-bottom: 5%;
+}
+
+table, tr {
+    border: solid 1px;
+}
+.inputBox{
+	width: 200px;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+.inputBox button {
+	text-align: center;
+	margin-left:25%;
+}
